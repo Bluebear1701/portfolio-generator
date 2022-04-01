@@ -27,6 +27,7 @@ const promptUser = () => {
           console.log("Please enter your GitHub Username!");
           return false;
         }
+      }
     },
     {
       type: 'confirm',
@@ -46,6 +47,7 @@ const promptUser = () => {
         }
       }
     }
+  ])}
 //promptUser().then(answers => console.log(answers));
 
 const promptProject = (portfolioData) => {
